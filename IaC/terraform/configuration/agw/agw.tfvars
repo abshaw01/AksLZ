@@ -82,6 +82,7 @@ application_gateway_platforms = {
       listener_name                 = "default-httplstn"
       request_routing_rule_name     = "default-rqrt"
       rule_type                     = "Basic"
+      priority                      = 200
     }
 
     listener_ssl_policy = {
