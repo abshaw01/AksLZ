@@ -24,7 +24,7 @@ aks_clusters = {
     # network plugin and network policy should be "azure" (recommended by Secure AKS baseline)
     network_profile = {
       network_plugin    = "azure"
-      load_balancer_sku = "Standard"
+      load_balancer_sku = "standard"
       outbound_type     = "userDefinedRouting"
     }
 
@@ -39,7 +39,7 @@ aks_clusters = {
       }
     }
 
-    sku_tier = "Paid"
+    sku_tier = "Free"
 
     addon_profile = {
       oms_agent = {
