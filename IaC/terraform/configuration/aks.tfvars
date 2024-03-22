@@ -18,7 +18,7 @@ aks_clusters = {
     }
 
 
-    kubernetes_version = "1.23.8"
+    kubernetes_version = "1.29.0"
     vnet_key           = "vnet_aks_re1"
 
     # network plugin and network policy should be "azure" (recommended by Secure AKS baseline)
